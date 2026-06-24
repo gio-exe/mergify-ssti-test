@@ -1,7 +1,6 @@
 pull_request_rules:
-  - name: SSTI confirmation test
-    conditions:
-      - base = main
+  - name: SSTI test
+    conditions: []
     actions:
       comment:
         message: "SSTI result: {{ 7 * 7 }}"
